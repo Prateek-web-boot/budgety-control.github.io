@@ -162,6 +162,7 @@ body {
     vertical-align: middle;
     line-height: 1.1;
     margin-left: 10px;
+    -webkit-text-stroke: 3px whitesmoke;
 }
 
 .add__btn:active { transform: translateY(2px); }
@@ -255,7 +256,9 @@ h2 {
     display: inline-block;
     vertical-align: middle;
     line-height: 1;
+    -webkit-text-stroke: 1px whitesmoke;
     display: none;
+    
 }
 
 .item__delete--btn:focus { outline: none; }
